@@ -110,6 +110,13 @@ public class Conversions
             double pounds = kilograms*2.20462;
             System.out.println(kilograms + " kilograms is " + pounds + " pounds");
         }
-        //add more if statements here.
+        
+        //currently trying to work the following code into a loop
+        System.out.println();
+        System.out.println("Try another conversion? ");
+        System.out.print("a. YES");
+        System.out.println("   b. NO");
+        keyboard.nextLine();
+        String answer = keyboard.next();
     }
 }
